@@ -1,16 +1,34 @@
-# React + Vite
+# 🛒 E-commerce App - React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Currently, two official plugins are available:
+Una Single Page Application (SPA) de e-commerce desarrollada totalmente con React JS. Este proyecto simula la experiencia completa de una tienda online, desde la navegación del catálogo de productos hasta la gestión del carrito y la generación de órdenes de compra.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **[Ver Demo en Vivo (Netlify)](https://proyecto-final-react-vy.netlify.app/)**
 
-## React Compiler
+## 🚀 Funcionalidades Principales
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Catálogo Dinámico:** Navegación de productos con filtrado por categorías.
+*   **Detalle de Producto:** Vista específica para cada ítem con descripción, stock disponible y selector de cantidad.
+*   **Gestión de Carrito:** Funcionalidad completa para agregar, eliminar, modificar cantidades y vaciar el carrito, gestionada mediante **Context API** para mantener el estado global.
+*   **Checkout Integrado:** Formulario de finalización de compra que genera una orden con los datos del comprador y el detalle de los productos, guardándose directamente en una base de datos en la nube.
+*   **Persistencia de Datos:** Integración con **Firebase (Firestore)** para el almacenamiento del catálogo de productos y el registro de las órdenes de compra.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **Frontend:** React JS, Vite / Create React App.
+*   **Enrutamiento:** React Router DOM (navegación sin recargas).
+*   **Manejo de Estado Global:** Context API.
+*   **Base de Datos (BaaS):** Firebase (Cloud Firestore).
+*   **Estilos / UI:** React Bootstrap & CSS personalizado.
+
+## ⚙️ Instalación y Uso Local
+
+Si deseas correr este proyecto en tu entorno local, sigue estos pasos:
+
+1. Clona este repositorio:
+   ```bash
+   git clone [https://github.com/vaneyanarello/entrega-reactjs.git](https://github.com/vaneyanarello/entrega-reactjs.git)
